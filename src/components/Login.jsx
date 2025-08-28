@@ -21,7 +21,7 @@ const Login = () => {
       return;
     }
 
-    const loginPromise = fetch("http://127.0.0.1:5000/login", {
+    const loginPromise = fetch("https://attendify-backend-vmyr.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
